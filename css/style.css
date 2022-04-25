@@ -102,6 +102,18 @@ img, img.responsive {
 	max-width:100%;
 	width: auto \9 !important;
 }
+.my-logo {
+	color: white;
+	font-weight: bold;
+	font-size: 40px;
+	width: 60px;
+	height: 60px;
+	margin: 0;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	/* line-height: 1; */
+}
+
 .relative {
 	position: relative;
 }
@@ -170,7 +182,7 @@ img, img.responsive {
 	font-style: italic;
 }
 .color-greenalt {
-	color: #CCC81E;
+	color: #DA7B93;
 }
 .color-grey {
 	color: #7f8c8d;
@@ -190,15 +202,15 @@ img, img.responsive {
     z-index: 99999;	
 }
 /* ------------- Section Background ------------- */
-.header-section { background-color:#cdc81e; }
+.header-section { background-color:#DA7B93   ; }
 .features-section  { background-color:#ecf0f1; }
 .reviews-section { background-color:#ffffff; }
-.app-services-section { background-color:#18549b; }
+.app-services-section { background-color:#DA7B93; }
 .app-screen-section { background-color:#ecf0f1; }
 .pricing-section { background-color:#ffffff; }
 .video-section { background-color:#2c3e50; }
 .download-section { background-color:#ecf0f1; }
-.contact-section { background-color:#4169E1; }
+.contact-section { background-color:#DA7B93; }
 
 .section-padding {
 	padding: 100px 0;
@@ -266,11 +278,11 @@ img, img.responsive {
 	margin-right: 30px;
 }
 .greenalt-btn {
-	border-color: #CCC81E;
-	color: #CCC81E;
+	border-color: white;
+	color: white;
 }
 .greenalt-btn:hover, .greenalt-btn:active, .greenalt-btn:focus {
-	background: #CCC81E;
+	background: white;
 	color: #FFFFFF;
 }
 .red-btn {
@@ -287,7 +299,7 @@ img, img.responsive {
 }
 .white-btn:hover, .white-btn:active, .white-btn:focus {	
 	background: #FFFFFF;
-	color: #CCC81E;
+	color: white;
 }
 
 /* =========================== HEADER SECTION ============================== */
@@ -305,7 +317,7 @@ img, img.responsive {
 }
 /* ------------- Logo & Menu ------------- */
 .logo-container {
-	background: rgba(24,84,156,0.9);
+	background: #2E151B ;
 	color: #fff;
 	padding: 16px 0 13px;
 }
@@ -322,7 +334,7 @@ img, img.responsive {
 .top-navbar ul.nav a {	
 	font-size: 13px;
 	font-weight: 800;	
-	color: #CCC81E;
+	color: #b0b0b0;
 }
 .top-navbar ul.nav a:hover, .top-navbar ul.nav a:focus, .top-navbar ul.nav a:active, .top-navbar ul.nav li.active a {
 	background:none !important;
@@ -569,7 +581,7 @@ img, img.responsive {
 .reviews-msg:before {
 	content: "\e004";	
 	font-family: Flaticon;
-	color: #CCC81E;
+	color: white;
 	font-size: 26px;
 }
 .reviews-image img {
@@ -703,7 +715,7 @@ img, img.responsive {
 	margin: 0 auto;
 }
 .pricing-title {
-	background: none repeat scroll 0 0 #1a2836;
+	background: none repeat scroll 0 0 #DA7B93;
     border-radius: 10px 10px 0 0;
     padding: 20px 0;
 }
@@ -898,7 +910,7 @@ img, img.responsive {
 }
 .contact-section .gk-submit:hover { 
 	background-color : #fff; 
-	color:#CDC81E;
+	color:#DA7B93;
 	}
 .gk-contact-form .has-error .form-control {
 	border-color: #a94442;
@@ -917,6 +929,7 @@ img, img.responsive {
 	line-height: 61px;
 	height: 61px;
 }
+
 .has-error .gk-textarea-message .form-control {
 	background-image: -webkit-linear-gradient(left, transparent 10px, transparent 10px), -webkit-linear-gradient(right, transparent 10px, transparent 10px), -webkit-linear-gradient(transparent 60px, #a94442 60px, #a94442 61px, transparent 61px);
     background-image: -moz-linear-gradient(left, transparent 10px, transparent 10px), -moz-linear-gradient(right, transparent 10px, transparent 10px), -moz-linear-gradient(transparent 60px, #a94442 60px, #a94442 61px, transparent 61px);
@@ -975,7 +988,7 @@ img, img.responsive {
 	margin: 0 0 0 20px;
 }
 .footer-social-icon a {
-	background: #CCC81E;	
+	background: white;	
 	color: #121413;
 	border-radius: 100%;	
 	font-size: 12px;	
